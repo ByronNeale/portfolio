@@ -1,0 +1,96 @@
+MyAvatar.png* {
+  box-sizing: border-box;
+}
+body  {
+  margin: 0;
+  font-family: 'Archivo Narrow', sans-serif;
+  /* changing font size use ems which is a percentage of the font */
+  font-size: 1.25em;
+ 
+}
+header {
+  /* how do we make the height specific to devices */
+  min-height:100vh;
+  background-color: White;
+  font-family: 'Raleway', sans-serif;
+  
+  
+}
+nav {
+  background-color:#2c2e30;
+  position: fixed;
+  width: 100%;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+ 
+}
+
+nav a:hover {
+	color: #33adff;
+}
+
+
+
+nav li {
+  display: inline-block;
+  padding:  1em;
+  font-family: 'Archivo Narrow', sans-serif;
+}
+nav ul {
+  margin:0;
+  font-family: 'Archivo Narrow', sans-serif;
+}
+header main {
+  padding-top: 3em;
+  text-align:center;
+  font-size: 1.25em;
+}
+h1  {
+  /* if you wanted to change case */
+  /* text-transform: uppercase; */
+  font-size:2.0em;
+  letter-spacing: 0.5em;
+  /* text-shadow: 0 1px grey; */
+}
+header img{
+  /* padding: 1em; */
+  padding-top: 1em;
+  width: 20%;
+  border-radius: 30%;
+  border: 16px orange groove;
+}
+.about-me {
+  padding: 3em 1em;
+  line-height: 1.25;
+  background-color: black;
+  color: white;
+   
+}
+
+.content {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.projects{
+  color: yellow;
+  padding: 3em 0;
+  background-color: grey;
+  background-image: url("http://davidszervereiinfo.pe.hu/wallpapers/4K-Wallpaper-City.jpg");
+background-size:cover;
+}
+
+.projects img {
+  width:20%;
+  padding: 30px 30px 30px 0;
+}
+
+@media only screen and (max-width: 770px) {
+  header img {
+    width: 300px;
+  }
+}
